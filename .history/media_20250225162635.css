@@ -1,0 +1,10 @@
+@media screen and (max-width: 780px) 
+{
+    nav{
+        visibility: hidden;
+    }
+    h5{
+        margin-left: -50px;
+    }
+    
+}

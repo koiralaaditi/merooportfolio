@@ -1,0 +1,144 @@
+@media screen and (max-width: 600px) 
+{
+    nav{
+        visibility: hidden;
+    }
+    h5{
+        margin-left: 15px;
+        font-size: 15px;
+        margin-top:75px;
+    }
+    h3{
+        margin-left: 15px;
+        font-size: 14px;
+
+    }
+    pre{
+    margin-left:-96px;  
+    font-size: 10px;  
+    }
+    img{
+        height: 300px;
+    width: 290px;
+    margin-left: -263px;
+    margin-top: 41px;
+
+    }
+    .io{
+        margin-left: 7px;
+        margin-top: -380px;
+        cursor: pointer;
+    
+
+    }
+    .text1{
+        color: rgb(185, 17, 45);
+        font-weight: 900;
+        margin-top: -50px;
+        font-size: 20px;
+        visibility: visible;
+        margin-left: 15px;
+    }
+    .imgggie{
+    visibility: hidden;
+        visibility: hidden;
+    }
+    h2{
+        visibility: hidden;
+    }
+    .ab{
+        visibility: hidden;
+    }
+    .cv{
+        visibility: hidden;
+    }
+    .cvsss{
+        visibility: hidden;
+    }
+.service{
+    margin-top: -470px;
+    margin-left: 70px;
+}
+.lio {
+    width: 200px;
+    height: 190px;
+    margin-left: -310px;
+}
+
+.lio img {
+    height: 90px;
+    width: 130px;
+    margin-left: 10px;
+}
+
+.liio, .liio2 {
+    flex-direction: column;  /* Stack items vertically */
+    align-items: center;
+    gap: 15px;
+    margin-left: 0; /* Remove extra left margin */
+}
+.services{
+    margin-left: 50px;
+}
+.dem {
+    flex-direction: column; /* Stack images vertically */
+    align-items: center;
+    gap: 10px;
+}
+
+.websites {
+    width: 90%;
+    margin-left: 869px; /* Increase width for a better mobile fit */
+}
+.services1{
+ visibility: hidden;
+}
+.service2{
+margin-top: -330px;
+margin-left: 19px;
+}
+.blog {
+   visibility: hidden;
+}
+
+.blog1 {
+    visibility: hidden;
+}
+
+.blog1 img {
+visibility: hidden;
+}
+
+.fi1 {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.se2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.mai{
+    margin-left: 20px;
+    width: 300px;
+    height: 230px;
+   
+}
+.hee input{
+    margin-left: 5px;
+    width: 280px;
+    margin-top: 25px;
+}
+.kio input{
+width: 280px;
+display: flex;
+margin-left: 5px;
+}
+.msg textarea{
+    margin-left: 5px;
+    width: 280px;
+}
+.submit{margin-top: -5px;
+
+}
+}

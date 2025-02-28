@@ -19,7 +19,7 @@ nav li{
     font-size: 13px;
     margin-top: 10px;
     cursor: pointer;
-
+font-weight: bolder;
     list-style-type: none;
 font-family: serif;}
 #hey{
@@ -181,6 +181,27 @@ h2{
     margin-left: 440px;
     margin-top: 100px;
 }
+.services{
+    color:#E75084;
+    font-family: serif;
+    font-weight: bolder;
+    margin-left: 440px;
+    margin-top: 100px;
+}
+.services1{color:#E75084;
+    font-family: serif;
+    font-weight: bolder;
+    margin-left: 440px;
+    margin-top: 100px;
+
+}
+.service2{
+    color:#E75084;
+    font-family: serif;
+    font-weight: bolder;
+    margin-left: 440px;
+    margin-top: 100px;
+}
 .cat{
     background-color: #FFD1DC;
     border: 1px solid #FFD1DC;
@@ -299,7 +320,9 @@ text-align: center;
     width: 299px;
     transform:scale(1.1)
 }
-
+.text1{
+    visibility: hidden;
+}
 
 .hee input{
     width: 550px;
@@ -362,9 +385,7 @@ padding-left: 5px;
 .submit{
     margin-left: 5%;
 }
-html{
-    scroll-behavior: smooth;
-}
+
 .dem{
     display: flex;
     justify-content: center;

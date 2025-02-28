@@ -1,0 +1,76 @@
+@media screen and (max-width: 480px) 
+{
+    nav{
+        visibility: hidden;
+    }
+    h5{
+        margin-left: 1px;
+        font-size: 15px;
+        margin-top:15px;
+    }
+    h3{
+        margin-left: 1px;
+        font-size: 14px;
+
+    }
+    pre{
+    margin-left:-108px;  
+    font-size: 10px;  
+    }
+    img{
+        height: 300px;
+    width: 250px;
+    margin-left: -440px;
+    margin-top: 39px;
+    }
+    .io{
+        margin-left: 1px;
+        margin-top: -380px;
+        cursor: pointer;
+    
+
+    }
+    .text1{
+        color: rgb(185, 17, 45);
+        font-weight: 900;
+        margin-top: -30px;
+        font-size: 13px;
+        visibility: visible;
+    }
+    .imgggie{
+    visibility: hidden;
+        visibility: hidden;
+    }
+    h2{
+        visibility: hidden;
+    }
+    .ab{
+        visibility: hidden;
+    }
+    .cv{
+        visibility: hidden;
+    }
+    .cvsss{
+        visibility: hidden;
+    }
+.service{
+    margin-top: -300px;
+    margin-left: 50px;
+}
+.lio {
+    width: 180px;
+    height: 130px;
+}
+
+.lio img {
+    height: 70px;
+    width: 110px;
+}
+
+.liio, .liio2 {
+    flex-wrap: wrap;  /* Allow items to wrap */
+    justify-content: center;
+    gap: 15px;
+    margin-left: 0; /* Remove any left margin */
+}
+}

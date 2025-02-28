@@ -1,0 +1,228 @@
+@media screen and (max-width: 780px) 
+{
+  /* 🔹 Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* 🔹 Body Styling */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* 🔹 Navbar - Stacked for Mobile */
+nav {
+    background-color: #ff7eb9;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* 🔹 Hero Section */
+.ii h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+pre {
+    font-size: 14px;
+    text-align: center;
+    white-space: normal;
+    margin: 10px auto;
+    max-width: 90%;
+}
+
+/* 🔹 Profile Image */
+.imgg img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* 🔹 Social Media Buttons */
+.io {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.helo {
+    background-color: #ff7eb9;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* 🔹 About Section */
+.k1 h2 {
+    font-size: 22px;
+    color: #ff7eb9;
+}
+
+.ab {
+    font-size: 18px;
+}
+
+/* 🔹 Personal Details */
+.cv {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* 🔹 Download CV Button */
+.cvsss {
+    background-color: #ff7eb9;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cvsss a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 🔹 Services Section */
+.service {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff7eb9;
+    margin: 20px 0;
+}
+
+/* 🔹 Skills/Services Grid */
+.liio, .liio2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+/* 🔹 Portfolio Section */
+.dem {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.websites img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* 🔹 Blog Section */
+.blog {
+    text-align: center;
+    margin: 20px;
+}
+
+.blog img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.fi1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff7eb9;
+}
+
+.se2 {
+    font-size: 16px;
+}
+
+.t {
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* 🔹 Contact Form */
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #ff7eb9;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* 🔹 Mobile-Only Styles */
+@media (max-width: 768px) {
+    /* Reduce profile image size */
+    .imgg img {
+        width: 120px;
+    }
+
+    /* Reduce font sizes for smaller screens */
+    h3 {
+        font-size: 18px;
+    }
+
+    pre {
+        font-size: 13px;
+    }
+
+    .service {
+        font-size: 18px;
+    }
+
+    .cvsss {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    /* Reduce grid columns for better spacing */
+    .liio, .liio2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+}

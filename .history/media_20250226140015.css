@@ -1,0 +1,50 @@
+@media screen and (max-width: 780px) 
+{
+    nav{
+        visibility: hidden;
+    }
+    h5{
+        margin-left: -1px;
+        font-size: 15px;
+    }
+    h3{
+        margin-left: -1px;
+        font-size: 14px;
+
+    }
+    pre{
+    margin-left:-130px;    
+    }
+    img{
+        height: 300px;
+    width: 250px;
+    margin-left: -440px;
+    margin-top: 39px;
+    }
+    .io{
+        margin-left: 1px;
+        margin-top: -380px;
+        cursor: pointer;
+    
+
+    }
+    .imgggie{
+        height: 300px;
+        width: 210px;
+        margin-left: 430px;
+        margin-top: -150px;
+    }
+    .k1{
+        visibility: hidden;
+    }
+    .ab{
+        visibility: hidden;
+    }
+    .cv{
+        visibility: hidden;
+    }
+    .cvsss{
+        visibility: hidden;
+    }
+
+}
