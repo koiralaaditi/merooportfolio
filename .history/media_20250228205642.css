@@ -3,6 +3,11 @@
     nav{
         visibility: hidden;
     }
+    body {
+        overflow-x: hidden;
+        width: 100vh;
+    }
+    
     h5{
         margin-left: 15px;
         font-size: 15px;
@@ -66,24 +71,16 @@
     margin-top: -470px;
     margin-left: 110px;
 }
-.lio {
-    width: 200px;
-    height: 190px;
-    margin-left: -190px;
-    box-shadow: 5px 5px 5px palevioletred;
-}
-
-.lio img {
-    height: 90px;
-    width: 130px;
-    margin-left: 35px;
-}
-
 .liio, .liio2 {
-    flex-direction: column;  /* Stack items vertically */
-    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center elements */
     gap: 15px;
-    margin-left: 0; /* Remove extra left margin */
+}
+
+.lio {
+    width: 90%; /* Make it fit smaller screens */
+    height: auto;
+}
 }
 .services{
     margin-left: 100px;
@@ -97,7 +94,7 @@
 .websites {
     width: 90%;
     margin-top: 10px;
-    margin-left: 513px; /* Increase width for a better mobile fit */
+    margin-left: 393px; /* Increase width for a better mobile fit */
 }
 .services1{
  visibility: hidden;

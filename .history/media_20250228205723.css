@@ -3,6 +3,11 @@
     nav{
         visibility: hidden;
     }
+    body {
+        overflow-x: hidden;
+        width: 100vh;
+    }
+    
     h5{
         margin-left: 15px;
         font-size: 15px;
@@ -76,7 +81,7 @@
 .lio img {
     height: 90px;
     width: 130px;
-    margin-left: 35px;
+    margin-left: -105px;
 }
 
 .liio, .liio2 {
@@ -97,7 +102,7 @@
 .websites {
     width: 90%;
     margin-top: 10px;
-    margin-left: 513px; /* Increase width for a better mobile fit */
+    margin-left: 393px; /* Increase width for a better mobile fit */
 }
 .services1{
  visibility: hidden;
