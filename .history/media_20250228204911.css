@@ -5,6 +5,7 @@
     }
     body {
         overflow-x: hidden;
+        width: 100vh /* Ensures the body does not exceed the viewport width */
     }
     
     h5{

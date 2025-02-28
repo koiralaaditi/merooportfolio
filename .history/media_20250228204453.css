@@ -3,10 +3,11 @@
     nav{
         visibility: hidden;
     }
-    body {
-        overflow-x: hidden;
+    *{
+        width: 500px;
+        height: auto;
+        border: 1px solid black;
     }
-    
     h5{
         margin-left: 15px;
         font-size: 15px;

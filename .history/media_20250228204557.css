@@ -3,10 +3,10 @@
     nav{
         visibility: hidden;
     }
-    body {
+    body{
+        
         overflow-x: hidden;
     }
-    
     h5{
         margin-left: 15px;
         font-size: 15px;

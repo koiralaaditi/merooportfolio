@@ -1,10 +1,11 @@
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 480px) 
 {
     nav{
         visibility: hidden;
     }
     body {
         overflow-x: hidden;
+        width: 150vw; /* Ensures the body does not exceed the viewport width */
     }
     
     h5{
