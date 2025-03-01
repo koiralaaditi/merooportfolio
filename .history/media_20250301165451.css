@@ -68,7 +68,7 @@
     font-size: 40px;
 }
 .service{
-    margin-top: -490px;
+    margin-top: 100px;
     margin-left: 130px;
     font-size: 40px;
 }
@@ -104,7 +104,7 @@
     width: 200%;
     height: auto;
     margin-top: 300px;
-    margin-left: -100px; /* Increase width for a better mobile fit */
+    margin-left: -130px; /* Increase width for a better mobile fit */
 }
 
 .services1{
@@ -160,17 +160,4 @@ margin-left: 5px;
 .submit{margin-top: -5px;
 
 }
-.footer {
-    padding: 20px;
-  }
-
-  .footer-nav {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .footer a {
-    font-size: 16px;
-  }
-
 }
