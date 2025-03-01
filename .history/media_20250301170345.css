@@ -64,7 +64,7 @@
     }
 .services{
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: -100px;
     font-size: 40px;
 }
 .service{
@@ -104,7 +104,7 @@
     width: 200%;
     height: auto;
     margin-top: 300px;
-    margin-left: -130px; /* Increase width for a better mobile fit */
+    margin-left: -100px; /* Increase width for a better mobile fit */
 }
 
 .services1{
