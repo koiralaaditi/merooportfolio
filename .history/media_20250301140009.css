@@ -69,11 +69,6 @@
     .cvsss{
         visibility: hidden;
     }
-.services{
-    margin-top: 100px;
-    margin-left: 130px;
-    font-size: 40px;
-}
 .service{
     margin-top: 100px;
     margin-left: 130px;
@@ -111,7 +106,7 @@
     width: 200%;
     height: 100%;
     margin-top: 300px;
-    margin-left: -100px; /* Increase width for a better mobile fit */
+    margin-left: 200px; /* Increase width for a better mobile fit */
 }
 .websites img{
     width: 50%;
@@ -148,8 +143,8 @@ visibility: hidden;
     margin-bottom: 5px;
 }
 .mai{
-    margin-left: 30px;
-    width: 90%;
+    margin-left: 0px;
+    width: 80%;
     height: auto;
    
 }

@@ -69,25 +69,20 @@
     .cvsss{
         visibility: hidden;
     }
-.services{
-    margin-top: 100px;
-    margin-left: 130px;
-    font-size: 40px;
-}
 .service{
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 130px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .lio {
-    width: 80%;
-    height: auto;
-    margin-left: -20px;
+    width: 70%;
+    height: 30%;
+    margin-left: -100px;
     box-shadow: 5px 5px 5px palevioletred;
 }
 
 .lio img {
-    height: auto;
+    height: 30%;
     width: 50%;
     margin-left: 35px;
 }
@@ -100,7 +95,9 @@
 }
 
 
-
+.services{
+    margin-left: 100px;
+}
 .dem {
     flex-direction: column; /* Stack images vertically */
     align-items: center;
@@ -108,14 +105,9 @@
 }
 
 .websites {
-    width: 200%;
-    height: 100%;
-    margin-top: 300px;
-    margin-left: -100px; /* Increase width for a better mobile fit */
-}
-.websites img{
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 400px; /* Increase width for a better mobile fit */
 }
 .services1{
  visibility: hidden;
@@ -123,7 +115,6 @@
 .service2{
 margin-top: -330px;
 margin-left: 100px;
-font-size: 40px;
 
 }
 .blog {
@@ -148,8 +139,8 @@ visibility: hidden;
     margin-bottom: 5px;
 }
 .mai{
-    margin-left: 30px;
-    width: 90%;
+    margin-left: 0px;
+    width: 80%;
     height: auto;
    
 }

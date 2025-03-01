@@ -74,11 +74,6 @@
     margin-left: 130px;
     font-size: 40px;
 }
-.service{
-    margin-top: 100px;
-    margin-left: 130px;
-    font-size: 40px;
-}
 .lio {
     width: 80%;
     height: auto;
@@ -148,8 +143,8 @@ visibility: hidden;
     margin-bottom: 5px;
 }
 .mai{
-    margin-left: 30px;
-    width: 90%;
+    margin-left: 0px;
+    width: 80%;
     height: auto;
    
 }
