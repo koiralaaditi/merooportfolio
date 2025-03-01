@@ -19,7 +19,7 @@
     font-size: 100%;  
     }
     .imgg img{
-        width: 80%;
+        width: 50%;
         margin-top: 200px;
         height: auto;
         margin-left: -10px;
@@ -27,7 +27,7 @@
 
     .io{
         margin-left: 10px;
-        margin-top: -700px;
+        margin-top: -840px;
         cursor: pointer;
     
 
@@ -89,7 +89,7 @@
 .lio img {
     height: auto;
     width: 50%;
-    margin-left: 135px;
+    margin-left: 35px;
 }
 
 .liio, .liio2 {

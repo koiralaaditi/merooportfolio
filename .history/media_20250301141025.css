@@ -19,15 +19,15 @@
     font-size: 100%;  
     }
     .imgg img{
-        width: 80%;
-        margin-top: 200px;
+        width: 100%;
+        margin-top: 70px;
         height: auto;
         margin-left: -10px;
     }
 
     .io{
         margin-left: 10px;
-        margin-top: -700px;
+        margin-top: -840px;
         cursor: pointer;
     
 
@@ -89,7 +89,7 @@
 .lio img {
     height: auto;
     width: 50%;
-    margin-left: 135px;
+    margin-left: 35px;
 }
 
 .liio, .liio2 {
@@ -111,11 +111,11 @@
     width: 200%;
     height: 100%;
     margin-top: 300px;
-    margin-left: 90px; /* Increase width for a better mobile fit */
+    margin-left: -100px; /* Increase width for a better mobile fit */
 }
 .websites img{
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
 }
 .services1{
  visibility: hidden;
