@@ -8,18 +8,19 @@
         font-size: 15px;
         margin-top:75px;
     }
+  
     h3{
         margin-left: 45px;
         font-size: 14px;
 
     }
     pre{
-    margin-left:-65px;  
+        margin-right: 100px;
     font-size: 10px;  
     }
  img{
-    margin-left: -200px;
     margin-top: 50px;
+    width: 100%;
  }
     .io{
         margin-left: 35px;

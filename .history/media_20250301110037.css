@@ -8,6 +8,9 @@
         font-size: 15px;
         margin-top:75px;
     }
+    body{
+        width: 500px;
+    }
     h3{
         margin-left: 45px;
         font-size: 14px;

@@ -1,5 +1,19 @@
 @media screen and (max-width: 600px) 
 {
+    html, body {
+        overflow-x: hidden;
+      }
+    
+      * {
+        max-width: 130%;
+        box-sizing: border-box;
+      }
+    
+      img, div, section {
+        max-width: 100%;
+        overflow: hidden;
+      }
+    }
     nav{
         visibility: hidden;
     }
@@ -147,5 +161,4 @@ margin-left: 5px;
 }
 .submit{margin-top: -5px;
 
-}
 }

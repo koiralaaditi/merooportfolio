@@ -1,0 +1,155 @@
+@media screen and (max-width: 600px) 
+{
+    @media screen and (max-width: 600px) {
+        /* Prevent horizontal overflow */
+        html, body {
+            overflow-x: hidden;
+            max-width: 100vw;
+            margin: 0;
+            padding: 0;
+        }
+    
+        /* Hide navigation on mobile */
+        nav {
+            display: none;
+        }
+    
+        /* Adjust headings */
+        h5 {
+            margin-left: 20px;
+            font-size: 15px;
+            margin-top: 75px;
+        }
+    
+        h3 {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+    
+        /* Fix text spacing */
+        pre {
+            margin-left: 0;
+            font-size: 10px;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+    
+        /* Responsive Images */
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px auto;
+            display: block;
+        }
+    
+        /* Adjust positioning */
+        .io {
+            margin-left: 20px;
+            margin-top: -380px;
+            cursor: pointer;
+        }
+    
+        /* Box shadow for mobile */
+        .helo {
+            box-shadow: 5px 5px 5px rgb(199, 36, 90);
+        }
+    
+        .helo:hover {
+            cursor: pointer;
+        }
+    
+        /* Styling for text */
+        .text1 {
+            color: rgb(185, 17, 45);
+            font-weight: 900;
+            margin-top: -50px;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    
+        /* Hide unnecessary elements */
+        .imgggie, h2, .ab, .cv, .cvsss, .services1, .blog, .blog1 img {
+            display: none;
+        }
+    
+        /* Center content */
+        .service {
+            margin-top: -470px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+    
+        /* Responsive container */
+        .lio {
+            width: 90%;
+            height: auto;
+            margin: 10px auto;
+            box-shadow: 5px 5px 5px palevioletred;
+            display: block;
+        }
+    
+        .lio img {
+            height: 90px;
+            width: 130px;
+            margin: 0 auto;
+            display: block;
+        }
+    
+        /* Flexbox adjustments */
+        .liio, .liio2, .dem {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-left: 0;
+        }
+    
+        .services {
+            margin: 0 auto;
+            text-align: center;
+        }
+    
+        /* Responsive layout */
+        .websites {
+            width: 100%;
+            margin: 10px auto;
+        }
+    
+        .service2 {
+            margin-top: -330px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+    
+        /* Text styling */
+        .fi1 {
+            font-size: 20px;
+            margin-top: 8px;
+        }
+    
+        .se2 {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+    
+        /* Responsive form */
+        .mai {
+            margin: 0 auto;
+            width: 90%;
+            max-width: 300px;
+            height: auto;
+        }
+    
+        .hee input,
+        .kio input,
+        .msg textarea {
+            width: 100%;
+            margin: 10px auto;
+            display: block;
+        }
+    
+        .submit {
+            margin-top: -5px;
+        }
+    }}

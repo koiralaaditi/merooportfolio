@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) 
+{
+ *{
+    margin: 0;
+    padding: 0;
+
+ }
+} 
+.fixed-element {
+    max-width: 100vw;
+    left: 0;
+    right: 0;
+  } 
+nav{
+    visibility: hidden;
+
+}

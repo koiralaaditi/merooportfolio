@@ -1,5 +1,20 @@
 @media screen and (max-width: 600px) 
 {
+    html, body {
+        overflow-x: hidden;
+      }
+    
+      * {
+        max-width: 90%;
+        box-sizing: border-box;
+        border: 1px solid white;
+      }
+    
+      img, div, section {
+        max-width: 90%;
+        overflow: hidden;
+      }
+    }
     nav{
         visibility: hidden;
     }
@@ -147,5 +162,4 @@ margin-left: 5px;
 }
 .submit{margin-top: -5px;
 
-}
 }

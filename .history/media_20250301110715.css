@@ -8,6 +8,11 @@
         font-size: 15px;
         margin-top:75px;
     }
+    body{
+        width: fit-content;
+        overflow: hidden;
+        height: auto;
+    }
     h3{
         margin-left: 45px;
         font-size: 14px;
@@ -126,7 +131,7 @@ visibility: hidden;
     margin-bottom: 5px;
 }
 .mai{
-    margin-left: 20px;
+    margin-left: auto;
     width: 300px;
     height: 230px;
    
