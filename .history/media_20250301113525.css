@@ -67,15 +67,15 @@
     margin-left: 130px;
 }
 .lio {
-    width: 60%;
+    width: 30%;
     height: auto;
     margin-left: -200px;
     box-shadow: 5px 5px 5px palevioletred;
 }
 
 .lio img {
-    height: auto;
-    width: 50%;
+    height: 90px;
+    width: 130px;
     margin-left: 35px;
 }
 
@@ -95,9 +95,9 @@
 }
 
 .websites {
-    width: 80%;
+    width: 100%;
     margin-top: 10px;
-    margin-left: 20px; /* Increase width for a better mobile fit */
+    margin-left: 50px; /* Increase width for a better mobile fit */
 }
 .services1{
  visibility: hidden;
@@ -130,23 +130,23 @@ visibility: hidden;
 }
 .mai{
     margin-left: 0px;
-    width: 80%;
-    height: auto;
+    width: 270px;
+    height: 230px;
    
 }
 .hee input{
     margin-left: 5px;
-    width: 90%;
+    width: 250px;
     margin-top: 25px;
 }
 .kio input{
-width: 90%;
+width: 250px;
 display: flex;
 margin-left: 5px;
 }
 .msg textarea{
     margin-left: 5px;
-    width: 90%;
+    width: 250px;
 }
 .submit{margin-top: -5px;
 
