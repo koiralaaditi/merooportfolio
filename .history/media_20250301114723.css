@@ -5,17 +5,17 @@
     }
     h5{
         margin-left: 45px;
-        font-size: 250%;
+        font-size: 15px;
         margin-top:75px;
     }
     h3{
         margin-left: 45px;
-        font-size: 180%;
+        font-size: 14px;
 
     }
     pre{
-    margin-left:-130px;  
-    font-size: 100%;  
+    margin-left:-65px;  
+    font-size: 10px;  
     }
     img{
         width: 100%;
@@ -28,7 +28,6 @@
         margin-left: 35px;
         margin-top: -380px;
         cursor: pointer;
-        width: 90%;
     
 
     }
@@ -133,7 +132,7 @@ visibility: hidden;
 }
 .mai{
     margin-left: 0px;
-    width: 80%;
+    width: 100%;
     height: auto;
    
 }

@@ -14,8 +14,8 @@
 
     }
     pre{
-    margin-left:-130px;  
-    font-size: 100%;  
+    margin-left:-65px;  
+    font-size: 100%px;  
     }
     img{
         width: 100%;
@@ -28,7 +28,6 @@
         margin-left: 35px;
         margin-top: -380px;
         cursor: pointer;
-        width: 90%;
     
 
     }
