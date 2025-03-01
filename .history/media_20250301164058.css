@@ -85,7 +85,7 @@
 .lio img {
     height: auto;
     width: 50%;
-    margin-left: 105px;
+    margin-left: 135px;
 }
 
 .liio, .liio2 {
@@ -105,13 +105,13 @@
 
 .websites {
     width: 200%;
-    height: auto;
+    height: 100%;
     margin-top: 300px;
     margin-left: 90px; /* Increase width for a better mobile fit */
 }
 .websites img{
     width: 30%;
-    height: auto;
+    height: 30%;
 }
 .services1{
  visibility: hidden;
