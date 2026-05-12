@@ -1,0 +1,23 @@
+.project-card{
+    text-align:left;
+    padding:15px;
+}
+
+.project-card img{
+    height:160px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.project-card h3{
+    margin-top:10px;
+    font-size:18px;
+    font-weight:600;
+}
+
+.project-card p{
+    font-size:13px;
+    color:#666;
+    margin-top:5px;
+    line-height:1.5;
+}

@@ -54,31 +54,7 @@
         font-size:12px;
         margin-left:10px;
     }
-.card{
-    background: var(--card);
-    padding:18px;
-    border-radius:14px;
-    border:1px solid #e5e7eb;
 
-    /* 🌟 soft Pinterest shadow */
-    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-
-    text-align:center;
-    transition:0.25s ease;
-}
-.project{
-    text-align:left;
-    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
-}
-
-.project:hover{
-    box-shadow: 0 16px 35px rgba(0,0,0,0.12);
-}
-/* ✨ hover effect (premium feel) */
-.card:hover{
-    transform:translateY(-6px);
-    box-shadow: 12 12px 28px rgba(31, 30, 30, 0.1);
-}
     .logo{
         font-size:15px;
     }

@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px) {
+
+    /* NAV */
+    nav{
+        padding:10px 20px;
+    }
+
+    nav ul{
+        display:none; /* simple mobile UI */
+    }
+
+    .logo{
+        font-size:18px;
+    }
+
+    /* HERO */
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+        padding:40px 20px;
+    }
+
+    .hero-text h1{
+        font-size:30px;
+    }
+
+    .hero img{
+        width:85%;
+    }
+
+    /* SECTIONS */
+    section{
+        padding:40px 20px;
+    }
+
+    .title{
+        font-size:24px;
+    }
+
+    /* SKILLS */
+    .skills{
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+
+    /* PROJECTS */
+    .projects{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    /* FORM */
+    form{
+        width:100%;
+        padding:0 10px;
+    }
+
+    input, textarea{
+        width:100%;
+    }
+}

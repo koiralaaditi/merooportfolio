@@ -1,0 +1,17 @@
+/* Extra mobile improvements */
+
+@media(max-width:600px){
+
+    nav ul{
+        display:none;
+    }
+
+    .hero-text h1{
+        font-size:28px;
+    }
+
+    .hero img{
+        width:90%;
+    }
+
+}

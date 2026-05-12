@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#fff7fa;
+    color:#1a1a1a;
+}
+
+/* NAV */
+nav{
+    position:sticky;
+    top:0;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#e75084;
+}
+
+.logo{
+    color:#e75084;
+    font-size:20px;
+    font-weight:700;
+}
+
+.btn{
+    background:#e75084;
+    color:white;
+    padding:8px 15px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* SECTIONS */
+section{
+    padding:80px 60px;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    min-height:90vh;
+}
+
+.hero-text h1{
+    font-size:45px;
+    color:#e75084;
+}
+
+.hero-text h3{
+    margin-top:10px;
+    font-weight:400;
+}
+
+.hero-text p{
+    margin-top:15px;
+    color:#555;
+    max-width:450px;
+}
+
+.hero img{
+    width:320px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* TITLE */
+.title{
+    text-align:center;
+    font-size:30px;
+    color:#e75084;
+    margin-bottom:40px;
+}
+
+/* ABOUT */
+.about{
+    text-align:center;
+    max-width:600px;
+    margin:auto;
+    color:#555;
+}
+
+/* SKILLS (Pinterest cards) */
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.skill:hover{
+    transform:translateY(-5px);
+}
+
+/* PROJECTS (Pinterest grid feel) */
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.project{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.project:hover{
+    transform:scale(1.05);
+}
+
+.project img{
+    width:100%;
+}
+
+.project p{
+    padding:10px;
+    font-weight:500;
+}
+
+/* CONTACT */
+form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input,textarea{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:white;
+    margin-top:40px;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+
+    nav{
+        padding:10px 20px;
+    }
+
+    nav ul{
+        display:none;
+    }
+
+    section{
+        padding:40px 20px;
+    }
+
+    .hero{
+        text-align:center;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .hero img{
+        width:90%;
+    }
+}

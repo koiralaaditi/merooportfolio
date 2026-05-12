@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Plus Jakarta Sans',sans-serif;
+    scroll-behavior:smooth;
+}
+
+/* 🌿 BOLD COLOR SYSTEM */
+body{
+    background:#f8fafc;
+    color:#0f172a;
+}
+
+/* NAV */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+    background:white;
+    border-bottom:1px solid #e5e7eb;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-weight:800;
+    font-size:20px;
+    letter-spacing:2px;
+}
+
+.nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#334155;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+.nav a:hover{
+    color:#e11d48;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:120px 60px;
+}
+
+.hero h1{
+    font-size:48px;
+    font-weight:800;
+    line-height:1.2;
+}
+
+.hero p{
+    margin-top:15px;
+    color:#64748b;
+    max-width:500px;
+    font-size:16px;
+}
+
+.hero img{
+    width:300px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* SECTION */
+.section{
+    padding:90px 60px;
+}
+
+.section h2{
+    font-size:30px;
+    font-weight:800;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.subtext{
+    color:#64748b;
+    margin-bottom:20px;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+/* CARD */
+.card{
+    background:white;
+    padding:20px;
+    border-radius:16px;
+    border:1px solid #e5e7eb;
+    text-align:center;
+    transition:0.2s;
+    font-weight:600;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+/* PROJECT */
+.project{
+    text-align:left;
+}
+
+.project img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:14px;
+    margin-bottom:10px;
+}
+
+.project h3{
+    font-size:18px;
+    font-weight:700;
+}
+
+.project p{
+    font-size:13px;
+    color:#64748b;
+    margin-top:5px;
+}
+
+/* FORM */
+form{
+    max-width:500px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+input,textarea{
+    padding:12px;
+    border:1px solid #e2e8f0;
+    border-radius:10px;
+}
+
+/* BUTTON */
+button{
+    background:#0f172a;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+button:hover{
+    background:#e11d48;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:25px;
+    color:#64748b;
+    background:white;
+}

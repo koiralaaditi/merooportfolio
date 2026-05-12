@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto',sans-serif;
+}
+
+body{
+    background:#fff7fa;
+    color:#1a1a1a;
+}
+
+/* NAV */
+nav{
+    position:sticky;
+    top:0;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav ul li{
+    cursor:pointer;
+    font-weight:500;
+}
+
+.logo{
+    color:#e75084;
+    font-size:20px;
+    font-weight:700;
+}
+
+.btn{
+    background:#e75084;
+    color:white;
+    padding:8px 15px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 60px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero-text h1{
+    font-size:40px;
+    color:#e75084;
+}
+
+.hero-text h3{
+    margin-top:10px;
+    font-weight:400;
+}
+
+.hero-text p{
+    margin-top:15px;
+    color:#555;
+}
+
+.hero img{
+    width:300px;
+    border-radius:15px;
+}
+
+/* SECTION */
+section{
+    padding:60px;
+}
+
+.title{
+    text-align:center;
+    font-size:28px;
+    color:#e75084;
+    margin-bottom:30px;
+}
+
+/* ABOUT */
+.about{
+    text-align:center;
+    max-width:600px;
+    margin:auto;
+}
+
+/* SKILLS */
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* PROJECTS */
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+.project img{
+    width:100%;
+}
+
+.project p{
+    padding:10px;
+}
+
+/* CONTACT */
+form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input,textarea{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:white;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+    nav{
+        padding:10px 20px;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+    }
+
+    section{
+        padding:30px;
+    }
+}

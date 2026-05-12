@@ -1,0 +1,41 @@
+@media screen and (max-width:768px){
+
+    nav{
+        padding:15px 20px;
+    }
+
+    .nav{
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        gap:25px;
+        padding:70px 20px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero img{
+        width:85%;
+    }
+
+    .section{
+        padding:50px 20px;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .hero h1{
+        font-size:26px;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+}

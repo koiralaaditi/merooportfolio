@@ -66,14 +66,7 @@
     text-align:center;
     transition:0.25s ease;
 }
-.project{
-    text-align:left;
-    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
-}
 
-.project:hover{
-    box-shadow: 0 16px 35px rgba(0,0,0,0.12);
-}
 /* ✨ hover effect (premium feel) */
 .card:hover{
     transform:translateY(-6px);
