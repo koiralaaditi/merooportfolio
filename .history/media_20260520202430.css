@@ -1,0 +1,85 @@
+@media screen and (max-width:768px){
+
+    nav{
+        padding:15px 20px;
+    }
+
+    .nav{
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+
+    /* 🔥 NAV FONT SIZE FIX */
+    .nav a{
+        font-size:13px;
+        margin-left:12px;
+    }
+
+    .logo{
+        font-size:16px;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        gap:25px;
+        padding:70px 20px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero img{
+        width:85%;
+    }
+
+    .section{
+        padding:50px 20px;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .hero h1{
+        font-size:26px;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    /* 🔥 EVEN SMALLER NAV FOR SMALL PHONES */
+    .nav a{
+        font-size:12px;
+        margin-left:10px;
+    }
+.card{
+    background: var(--card);
+    padding:18px;
+    border-radius:14px;
+    border:1px solid #e5e7eb;
+
+    /* 🌟 soft Pinterest shadow */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+
+    text-align:center;
+    transition:0.25s ease;
+}
+.project{
+    text-align:left;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+}
+
+.project:hover{
+    box-shadow: 0 16px 35px rgba(0,0,0,0.12);
+}
+/* ✨ hover effect (premium feel) */
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow: 12 12px 28px rgba(31, 30, 30, 0.1);
+}
+    .logo{
+        font-size:15px;
+    }
+}

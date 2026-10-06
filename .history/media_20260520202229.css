@@ -1,0 +1,47 @@
+/* TABLET */
+@media (max-width: 768px) {
+
+.hero {
+flex-direction: column;
+text-align: center;
+padding: 90px 5%;
+}
+
+.hero-text h1 {
+font-size: 38px;
+}
+
+.hero-img img {
+width: 260px;
+}
+
+.nav-links {
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 10px;
+}
+
+.nav-links a {
+margin: 10px;
+}
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+
+.hero-text h1 {
+font-size: 30px;
+}
+
+.hero-text p {
+font-size: 14px;
+}
+
+.hero-img img {
+width: 220px;
+}
+
+.card {
+padding: 18px;
+}
+}
